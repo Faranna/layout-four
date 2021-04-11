@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+.header {
+    height: 100px;
+    background-color: aqua;
+}
+
+.nav {
+    height: 100px;
+    background-color: blue;
+}
+.parent {
+    overflow: hidden;
+}
+.left_parent {
+    width: 60%;
+    background-color: brown;
+    float: left;
+    height: 400px;
+    overflow: hidden;
+}
+
+.right_parent {
+    width: 40%;
+    background-color: cadetblue;
+    float: right;
+    height: 400px;
+}
+.top {
+    height: 200px;
+    background-color: chocolate;
+}
+.bottom {
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.footer {
+    height: 100px;
+    background-color: darkorange;
+}
